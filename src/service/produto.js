@@ -38,7 +38,7 @@ class ServiceProdutos {
         produtovelho.disponivel = disponivel || produtovelho.disponivel
         produtovelho.qtde = qtde || produtovelho.qtde
 
-        produtovelho.save
+        produtovelho.save()
     }
 
 
